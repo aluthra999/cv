@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankit Luthra</title>
+</head>
+
+<body>
+    <div style="text-align:center; justify-content:center; align-items:center;">
+        <h2>Become a member - Sign Up below</h2>
+        <p style="color: red;">Sign up is unavailable</p>
+
+        <img src="images/empty-profile-picture-circle.png" alt="profile_picture_avatar"
+            style="width: 130px; height: 100px; margin-left: 60px;">
+
+        <form action="mailto:accforcan@gmail.com" method="post" enctype="text/plain">
+            <table style="margin: 0 auto;">
+                <tr>
+                    <td><label for="name">Your Name:</label></td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Your Email</label></td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="phone">Phone Number</label></td>
+                    <td><input type="tel" name="phone" id="tel"></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="radio_gender">What's your gender?</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" id="male" value="male">
+                        <label for="male">Male</label>
+
+                        <input type="radio" name="gender" id="female" value="female">
+                        <label for="female">Female</label>
+
+                        <input type="radio" name="gender" id="other" value="other">
+                        <label for="other">Other</label>
+                    </td>
+                </tr>
+
+                <!-- <tr>
+                    <td><label for="password">Password</label></td>
+                    <td><input type="password"></td>
+                </tr> -->
+
+                <tr>
+                    <td><label for="dob">Enter your Birthday</label></td>
+                    <td><input type="date" name="dob"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="profile_picture">Upload a profile picture</label></td>
+                    <td><input type="file" name="avatar" id="avatar" accept="image/png, image/jpg, image/pdf"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="checkbox">Sign Up for Newsletter</label></td>
+                    <td><input type="checkbox" name="Newsletter"></td>
+                </tr>
+
+                <br>
+            </table>
+            
+            <input type="reset" value="Reset">
+            <input type="submit" value="Sign Up" disabled>
+        </form><br>
+        <a href="index.html"><button style="width: 10%;">Home</button></a>
+    </div>
+</body>
+
+</html>
